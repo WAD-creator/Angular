@@ -85,7 +85,7 @@ export class App {
 ```
 ## Step: Configure the Root Application Component
 **1. Open `src/app/app.config.ts`** and replace the content with:
-```html
+```typescript
 import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
